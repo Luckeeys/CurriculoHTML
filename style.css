@@ -1,0 +1,58 @@
+body {
+    background: #2e2e2e;
+    font-family: Courier, Trebuchet;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title{
+    color:white
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: linen;
+    color:white;
+}
+
+#avatar{
+    border: 1px ridge #fff;
+    border-radius: 50%;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #646464;
+    /*background-image: url("Tech.jpg");*/
+    padding: 15px;
+    border: 3px ridge #000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
